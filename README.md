@@ -1,17 +1,45 @@
 # Bare Minimum Game Engine
 
-This is a bare minimum game engine using Pygame. It creates a window, handles events, and allows the user to close the window.
+A minimalistic game engine using Pygame to help you learn the basics of game programming. This project demonstrates creating a window, handling events, and incorporating a simple physics engine.
+
+## Features
+
+### Version 1: Bare Minimum Game Engine
+
+- Create a window using Pygame.
+- Basic event handling to close the window.
+
+### Version 2: Bare Minimum Game Engine with Physics
+
+- Added a simple physics engine with gravity.
+- Implemented boundary collision detection and response.
 
 ## Installation
 
-```sh
-pip install -r requirements.txt
+1. **Clone the repository:**
 
-## Version 2: Bare Minimum Game Engine with Physics
+   ```sh
+   git clone https://github.com/yourusername/bare_minimum_game_engine.git
+   cd bare_minimum_game_engine
+   ```
 
-This version includes a simple physics engine with gravity and boundary collision detection.
+2. **Create a virtual environment:**
 
-### New Features
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-- Simple physics object (ball) with gravity.
-- Boundary collision detection and response.
+3. **Install dependencies:**
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. **Run the game engine:**
+
+   ```sh
+   python main.py
+   ```
