@@ -43,3 +43,17 @@ A minimalistic game engine using Pygame to help you learn the basics of game pro
    ```sh
    python main.py
    ```
+
+## Testing
+
+To run the tests, use the following command:
+
+```sh
+pytest
+```
+
+Make sure to install the test dependencies first:
+
+```sh
+pip install -r requirements.txt
+```
